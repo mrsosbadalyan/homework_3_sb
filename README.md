@@ -1,16 +1,18 @@
-# homework_3_sb
+﻿# homework_3_sb — Final Grade Calculator (Flutter)
 
-A new Flutter project.
 
-## Getting Started
+Here I created the app with editable fields:
+  - Participation & Attendance (10%)
+  - 4 Homeworks (20% total, average)
+  - Group Presentation (10%)
+  - Midterm 1 (10%)
+  - Midterm 2 (20%)
+  - Final Project (30%)
+The user has options to:
+--- edit the scores
+--- add/remove homework items (max 4) + reset
+--- maintain values (via shared_preferences)
 
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Run
+flutter pub get
+flutter run
