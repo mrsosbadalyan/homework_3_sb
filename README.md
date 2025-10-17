@@ -14,6 +14,10 @@ The user has options to:
 - add/remove homework items (max 4) + reset
 - maintain values (via shared_preferences)
 
+The grades are also limited from 0 to 100
+- while entering more than 100 it automatically writes 100
+- while entering less than 0 it automatically writes 0
+
 ## Run
 flutter pub get
 flutter run
